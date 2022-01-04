@@ -1,0 +1,49 @@
+
+
+.topbarContainer {
+    background-color: #1877f2;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.topbarLeft {
+    flex: 3;
+    margin-left: 30px;
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.topbarRight {
+    flex: 5;
+}
+
+.topbarsearch {
+    height: 30px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+}
+
+
+.search  {
+    width: 50%;
+    border: none;
+}
+
+.searchIcon {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.search:focus {
+    outline:none;
+}

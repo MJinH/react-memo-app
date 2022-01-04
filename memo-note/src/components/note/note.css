@@ -1,0 +1,13 @@
+
+
+.NoteContainer {
+    margin-top: 5.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display:grid;
+    grid-gap: 10rem;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(300px,1fr)
+    );
+}

@@ -1,0 +1,10 @@
+.container {
+    max-width: 960px;
+	/*Thos helpes keep everyting centered on large screen*/
+	margin-right: auto;
+	margin-left: auto;
+	/*This prevents the notes from veing pushed to the edge of the screen*/
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
+}

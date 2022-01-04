@@ -1,0 +1,50 @@
+
+
+.newNoteContainer{
+    min-height: 220px;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 6px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 15px 15px 6px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 15px 15px 6px 0px rgba(0,0,0,0.28);
+    background-color: #92A9BD;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+textarea {
+    border:none;
+    background-color: #92A9BD;
+    resize:none;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+textarea:focus {
+    outline:none;
+}
+
+
+.noteBottom {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+small {
+    color: #A3E4DB;
+}
+
+.saveButton {
+    background-color: #92A9BD;
+    border-radius: 5px;
+    border:none;
+    padding: 7px;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+}
